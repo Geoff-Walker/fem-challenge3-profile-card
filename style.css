@@ -12,29 +12,13 @@
 
 /* Background*/
 body {
+    background-image: url(./images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-position: right 50.8vw bottom 38.5vh, left 50vw top 49vh;
+    background-repeat: no-repeat;
     background-color: hsl(185, 75%, 39%);
-    
-    
-    
+    width: 100%;
+    height: 100vh;
 }
-
-
-.img__bottom-right {
-    position: fixed;
-    right: -15%;
-    bottom: -75%;
-   
-}
-
-.img__top-left {
-    position: fixed;
-    left: -19%;
-    top: -58%;
-}
-
-
-/*Card*/
-
 
 .card {
     width: 322px;
@@ -46,8 +30,7 @@ body {
     transform: translate(-50%, -50%);
     overflow: hidden;
     border-radius: 10px;
-
-
+    box-shadow: 5px 5px 10px hsl(229, 23%, 23%, 0.3);
 }
 
 .profile__img {
